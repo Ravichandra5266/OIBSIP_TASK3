@@ -34,7 +34,7 @@ let addNewTodoItem = () => {
 		};
 		createAndAppendNewTodo(newTodoItem);
 		todoItemsArray.push(newTodoItem);
-		// inputElement.value = "";
+		inputElement.value = "";
 	}
 };
 
